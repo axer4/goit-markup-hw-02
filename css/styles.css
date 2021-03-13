@@ -1,0 +1,207 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+:root {
+  --hover-color: #2196f3;
+  --main-text-color: #757575;
+  --footer-mail-phone-color: rgba(255, 255, 255, 0.6);
+  --header-bg-color: #ffffff;
+  --h1-h2-h3-color: #212121;
+  --logo-header-color: #000000;
+  --banner-footer-bg-color: #2f303a;
+  --buttons-bg-color: #f5f4fa;
+  --main-section-bg-color: #e5e5e5;
+  --make-an-order-hover-color: #188ce8;
+}
+/*Other links*/
+.navigation-links:hover {
+  color: var(--hover-color);
+}
+.navigation-links:focus {
+  color: var(--hover-color);
+}
+.navigation-links {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--h1-h2-h3-color);
+}
+.current {
+  color: var(--hover-color);
+}
+/*Header-section*/
+.header {
+  background: var(--header-bg-color);
+}
+.logo-header {
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--logo-header-color);
+}
+.web-logo {
+  color: var(--hover-color);
+}
+.phone-number {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.phone-number:hover {
+  color: var(--hover-color);
+}
+.phone-number:focus {
+  color: var(--hover-color);
+}
+.mail {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.mail:focus {
+  color: var(--hover-color);
+}
+.navigation-list-item {
+  list-style: none;
+}
+/*Banner-Section*/
+.banner {
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--header-bg-color);
+}
+.banner-section {
+  background: var(--banner-footer-bg-color);
+}
+.make-an-order {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  background: var(--hover-color);
+  color: var(--header-bg-color);
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+}
+.make-an-order:hover {
+  background: var(--make-an-order-hover-color);
+}
+/*Main-section*/
+.main {
+  background: var(--main-section-bg-color);
+}
+.our-qualities {
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--h1-h2-h3-color);
+}
+.what-we-do,
+.our-team {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--h1-h2-h3-color);
+}
+/*Our Team Section*/
+.mates-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--h1-h2-h3-color);
+}
+.mates-duty {
+  font-size: 16px;
+  line-height: 1.2;
+}
+/*Footer-section*/
+.footer {
+  background: var(--banner-footer-bg-color);
+}
+.logo-footer {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--header-bg-color);
+}
+.mail-footer,
+.phone-footer {
+  font-style: normal;
+  text-decoration: none;
+  color: var(--footer-mail-phone-color);
+}
+.phone-footer:focus {
+  color: var(--hover-color);
+}
+.phone-footer:hover {
+  color: var(--hover-color);
+}
+.mail-footer:focus {
+  color: var(--hover-color);
+}
+.mail-footer:hover {
+  color: var(--hover-color);
+}
+.address-footer {
+  color: var(--header-bg-color);
+  font-style: normal;
+}
+.mail:hover {
+  color: var(--hover-color);
+}
+/* ----------------------------------------------------------PORTFOLIO-PAGE-STYLES----------------------------------------------------------*/
+/* Filters section*/
+.filters-list-item {
+  text-align: center;
+  list-style: none;
+}
+.button-filters-li {
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--h1-h2-h3-color);
+}
+.button-filters-li:hover {
+  color: var(--header-bg-color);
+  background-color: var(--hover-color);
+}
+.filters-images {
+  font-size: 16px;
+  line-height: 1.87;
+  text-decoration: none;
+}
+.image-description {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--h1-h2-h3-color);
+}
+.filters-list {
+  list-style: none;
+}
+.selected-filter-image {
+  color: var(--main-text-color);
+}
