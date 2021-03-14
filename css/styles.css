@@ -85,6 +85,7 @@ body {
 .banner {
   font-size: 44px;
   line-height: 1.36;
+  font-weight: 900;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -110,9 +111,13 @@ body {
   background: var(--main-section-bg-color);
 }
 .our-qualities {
+  font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
   color: var(--h1-h2-h3-color);
+}
+.list-item-our-qualities {
+  list-style: none;
 }
 .what-we-do,
 .our-team {
@@ -178,7 +183,7 @@ body {
 }
 .button-filters-li {
   cursor: pointer;
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
